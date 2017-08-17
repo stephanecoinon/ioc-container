@@ -10,6 +10,7 @@ trait TestsOtherFrameworksArentDetected
     public $frameworks = [
         'none',
         'laravel',
+        'slim',
     ];
 
     /** @test */

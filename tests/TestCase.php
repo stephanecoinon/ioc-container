@@ -30,4 +30,17 @@ class TestCase extends BaseTestCase
     {
         $this->bootstrap('Laravel/bootstrap/app.php');
     }
+
+    /**
+     * Instantiate a new Slim app.
+     *
+     * Test cases for Slim framework must bear the annotation
+     * @runTestsInSeparateProcesses because of the use of globals.
+     */
+    public function bootstrapSlim()
+    {
+        global $slimApp;
+
+        $slimApp = new \Slim\App;
+    }
 }

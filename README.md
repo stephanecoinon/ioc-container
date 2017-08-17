@@ -12,6 +12,7 @@ This is useful when developping an agnostic package that needs an IoC container 
 
 Frameworks currently supported are:
 - Laravel
+- [Slim](https://www.slimframework.com)
 
 ## Requirements
 
