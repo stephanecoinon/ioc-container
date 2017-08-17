@@ -1,0 +1,25 @@
+{
+    "name": "stephanecoinon/ioc-container",
+    "description": "Polymorphic IoC Container for PHP",
+    "keywords": ["container", "ioc", "dependency injection", "polymorphic"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "7.*",
+        "league/container": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "StephaneCoinon\\Container\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests",
+            "Illuminate\\": "tests/Stubs/Laravel/Illuminate"
+        }
+    }
+}
