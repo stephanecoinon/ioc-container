@@ -11,7 +11,7 @@ When used in a vanilla PHP context, this package uses the [PHP League container]
 This is useful when developping an agnostic package that needs an IoC container but also ships with service providers for popular frameworks. It gives you a common IoC container API that leverages the framework native IoC container without your package ever pulling the framework itself.
 
 Frameworks currently supported are:
-- Laravel
+- [Laravel](https://laravel.com)
 - [Slim](https://www.slimframework.com)
 
 ## Requirements
