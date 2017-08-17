@@ -1,5 +1,7 @@
 # Polymorphic IoC Container for PHP
 
+![Codeship Status for stephanecoinon/ioc-container](https://app.codeship.com/projects/81270d00-65ae-0135-dc38-623163ca562f/status?branch=master)
+
 Versatile IoC container package that wraps around the container of the framework it's pulled in.
 
 When this package is pulled in a framework (ie Laravel, Symfony...), it automatically detects it and wraps around the native IoC container of the framework.
